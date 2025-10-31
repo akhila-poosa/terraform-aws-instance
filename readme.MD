@@ -8,7 +8,7 @@ This Terraform module provisions an AWS EC2 instance with customizable parameter
 
 * **ami_id** - (Optional)  
   The Amazon Machine Image (AMI) ID used to launch the instance.  
-  **Default:** 'ami-09c813fb71547fc4f'
+  **Default:** ami-09c813fb71547fc4f
 
 * **instance_type** - (Required)  
   The type of EC2 instance to launch.  
