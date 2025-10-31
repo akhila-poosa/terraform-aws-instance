@@ -24,6 +24,6 @@ This Terraform module provisions an AWS EC2 instance with customizable parameter
 
 ### Outputs
 
-* **public_ip** — The public IP address of the created EC2 instance.  
-* **private_ip** — The private IP address of the created EC2 instance.  
-* **instance_id** — The unique ID of the created EC2 instance.
+* **public_ip** - The public IP address of the created EC2 instance.  
+* **private_ip** - The private IP address of the created EC2 instance.  
+* **instance_id** - The unique ID of the created EC2 instance.
