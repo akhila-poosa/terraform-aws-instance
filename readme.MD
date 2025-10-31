@@ -6,21 +6,21 @@ This Terraform module provisions an AWS EC2 instance with customizable parameter
 
 ### Inputs
 
-* **ami_id** — *(Optional)*  
+* **ami_id** — (Optional)  
   The Amazon Machine Image (AMI) ID used to launch the instance.  
   **Default:** 'ami-09c813fb71547fc4f'
 
-* **instance_type** — *(Required)*  
+* **instance_type** — (Required)  
   The type of EC2 instance to launch.  
-  **Example:** 't3.micro', 't3.small', or 't3.medium'
+  **Example:** t3.micro, t3.small, or t3.medium
 
-* **sg_ids** — *(Required)*  
+* **sg_ids** — (Required)  
   A list of Security Group IDs to associate with the EC2 instance.
 
-* **tags** — *(Optional)*  
+* **tags** — (Required)  
   A map of tags to assign to the EC2 instance. Tags help organize and manage AWS resources.
 
----
+
 
 ### Outputs
 
